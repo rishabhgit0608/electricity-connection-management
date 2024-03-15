@@ -1,0 +1,74 @@
+.settings_outlined:hover {
+  cursor: pointer;
+}
+.search_functionality {
+  display: flex;
+  flex-direction: row;
+}
+
+.search_functionality__btn {
+  margin-left: 10px;
+}
+
+.search_functionality__datepicker {
+  display: flex;
+  margin-left: 10px;
+}
+.dashboard__modal {
+  overflow: scroll;
+}
+
+.dashboard__modal_card {
+  overflow: scroll;
+}
+
+.dashboard_textarea {
+  margin-top: 10px;
+}
+
+.reviewers_actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.status_change_select {
+  margin: auto;
+  padding-top: 5px;
+  width: 45%;
+}
+.status_change_select .ant-select {
+  width: 100%;
+}
+
+.navbars {
+  background-color: black;
+  margin-bottom: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.logo {
+  color: white;
+  padding: 0 1em;
+}
+
+ul .links {
+  display: inline-block;
+  padding: 0 1em;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.links {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.charts {
+  width: 70vw;
+  height: 50vh;
+}
